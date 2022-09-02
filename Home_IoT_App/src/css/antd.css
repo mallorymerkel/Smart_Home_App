@@ -1,0 +1,16 @@
+@import "~antd/dist/antd.css";
+
+.ant-menu {
+  background: none !important;
+}
+
+.ant-menu-horizontal::before,
+.ant-menu-horizontal::after {
+  content: none !important;
+}
+
+
+.gutter-box {
+  padding: 8px 0;
+  background: #00a0e9;
+}

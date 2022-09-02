@@ -1,0 +1,61 @@
+@import "./antd.css";
+@import "./App.css";
+
+.monthButtonContainer{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+}
+.monthButton{
+    margin-left: 20px auto;
+    margin-right: 20px auto;
+    padding: 10px;
+}
+.graph{
+    margin: 10px auto;
+    min-height: 350px;
+    min-width:600px;
+    border: 1px solid steelblue;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.table{
+    margin: 30px auto;
+    width:600px;
+    height: 20vh;
+    text-align: center;
+    border: 1px solid steelblue;
+    padding: 10px;
+    border-radius: 5px;
+    justify-content: center;
+    display: flex;
+}
+
+.bannerAdOne{
+    position: absolute;
+    float: left;
+    left: 20%;
+    top: 30px;
+}
+.bannerAdOne:hover{
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+}
+
+
+.bannerAdTwo{
+    position: absolute;
+    float: right;
+    right: 20%;
+    top: 30px;
+}
+
+.bannerAdTwo:hover{
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+}
+
